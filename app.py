@@ -35,7 +35,7 @@ def process_data(df):
     return df
 
 # Interface de Upload
-st.title("📊 SprintMind Dashboard Viewer")
+st.title("📊 FastShop Dashboard Viewer")
 st.markdown("Faça o upload do seu arquivo Excel exportado do Jira para visualizar as métricas da Sprint.")
 
 uploaded_file = st.file_uploader("Escolha o arquivo Excel", type=['xlsx', 'xls'])
