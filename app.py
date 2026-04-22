@@ -120,7 +120,7 @@ if uploaded_file is not None:
         total_bugs = len(df_filtered[df_filtered['Tipo de item'] == 'Bug'])
         qtd_itens = len(df_filtered)
 
-        col1.metric("ESCopo TOTAL (Horas)", f"{total_horas:.0f}h")
+        col1.metric("ESCOPO TOTAL (Horas)", f"{total_horas:.0f}h")
         col2.metric("HORAS ENTREGUES", f"{horas_concluidas:.0f}h")
         col3.metric("QTD DE ITENS", f"{qtd_itens}")
         col4.metric("TOTAL DE BUGS", f"{total_bugs}")
